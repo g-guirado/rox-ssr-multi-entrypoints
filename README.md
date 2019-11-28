@@ -1,5 +1,7 @@
 A wrapper on top of Rollout.io [rox-ssr](https://www.npmjs.com/package/rox-ssr) SDK to support multiple [entry points](https://webpack.js.org/concepts/entry-points/)
 
+![](https://github.com/g-guirado/rox-ssr-multi-entrypoints/workflows/CI/badge.svg)
+
 # Why?
 rox-ssr does not behave well when using multiple webpack entry points. This package aims to solve that issue. Note that none of the code is Webpack specific so this should work with other similar tools.
 
