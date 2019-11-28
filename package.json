@@ -1,6 +1,6 @@
 {
   "name": "rox-ssr-multi-entrypoints",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rollout.io SDK with support for multiple entrypoints",
   "author": "Guillaume Guirado",
   "license": "MIT",
@@ -48,7 +48,9 @@
     "eslint-plugin-react": "^7.16.0",
     "typescript": "^3.7.2"
   },
-  "engines" : { "node" : ">=12" },
+  "engines": {
+    "node": ">=12"
+  },
   "files": [
     "dist/**/*.js",
     "dist/**/*.d.ts",
