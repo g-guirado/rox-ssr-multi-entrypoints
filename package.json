@@ -1,0 +1,57 @@
+{
+  "name": "rox-ssr-multi-entrypoints",
+  "version": "0.1.0",
+  "description": "Support for multiple entrypoints",
+  "author": "Guillaume Guirado",
+  "license": "MIT",
+  "homepage": "https://github.com/g-guirado/rox-ssr-multi-entrypoints",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g-guirado/rox-ssr-multi-entrypoints.git"
+  },
+  "keywords": [
+    "feature-flag",
+    "feature-flags",
+    "remote-configuration",
+    "remote-variable",
+    "rollout",
+    "rox",
+    "ssr",
+    "flags",
+    "flag",
+    "configuration",
+    "remote-control",
+    "rollout.io"
+  ],
+  "scripts": {
+    "clean:dist": "rm -rf dist/*",
+    "build": "yarn build-es5 && yarn build-es6",
+    "build-es5": "tsc --target es5 --outDir dist/es5 --removeComments --lib es2015",
+    "build-es6": "tsc",
+    "lint": "eslint . --ext .js,.ts"
+  },
+  "main": "dist/es6/index.js",
+  "types": "dist/es6/index.d.ts",
+  "browser": "dist/es5/index.js",
+  "dependencies": {
+    "rox-ssr": "^4.8.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-airbnb-typescript": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "typescript": "^3.7.2"
+  },
+  "engines" : { "node" : ">=12" },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "dist/**/*.js.map"
+  ]
+}
