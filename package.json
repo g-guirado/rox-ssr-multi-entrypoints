@@ -49,7 +49,7 @@
     "typescript": "^3.7.2"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=10"
   },
   "files": [
     "dist/**/*.js",
