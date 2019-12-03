@@ -44,14 +44,14 @@ class RoxClientMultiEntrypoints extends _RoxClient {
       // Add the configurationFetchedHandler to the list of handlers
       // _configurationFetchedHandlers can only grow but this is not a memory leak; there can
       // only be a finite number of entry points
-      if (options.configurationFetchedHandler) {
+      if (options?.configurationFetchedHandler) {
         this._confFetchedHandlers.push(options.configurationFetchedHandler);
       }
       return;
     }
 
     const _options = { ...options };
-    if (options.configurationFetchedHandler) {
+    if (options?.configurationFetchedHandler) {
       this._confFetchedHandlers.push(options.configurationFetchedHandler);
     }
     _options.configurationFetchedHandler = this._confFetchedHandler;
