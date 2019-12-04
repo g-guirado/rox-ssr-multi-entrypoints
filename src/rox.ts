@@ -38,7 +38,7 @@ class RoxClientMultiEntrypoints extends _RoxClient {
     if (this._initialSetup) {
       // this is a legitimate call only if parameters remain the same
       if (this._initialSetup.apiKey !== apiKey
-        || this._initialSetup.devModeSecret !== options.devModeSecret) {
+        || this._initialSetup.devModeSecret !== options?.devModeSecret) {
         throw new Error('Rox cannot be initialized more than once');
       }
       // Add the configurationFetchedHandler to the list of handlers
