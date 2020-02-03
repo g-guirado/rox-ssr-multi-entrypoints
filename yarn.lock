@@ -46,15 +46,6 @@
     regexpp "^3.0.0"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.16.0.tgz#bba65685728c532e0ddc811a0376e8d38e671f77"
-  integrity sha512-bXTmAztXpqxliDKZgvWkl+5dHeRN+jqXVZ16peKKFzSXVzT6mz8kgBpHiVzEKO2NZ8OCU7dG61K9sRS/SkUUFQ==
-  dependencies:
-    "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/typescript-estree" "2.16.0"
-    eslint-scope "^5.0.0"
-
 "@typescript-eslint/experimental-utils@2.18.0":
   version "2.18.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.18.0.tgz#e4eab839082030282496c1439bbf9fdf2a4f3da8"
@@ -73,19 +64,6 @@
     "@typescript-eslint/experimental-utils" "2.18.0"
     "@typescript-eslint/typescript-estree" "2.18.0"
     eslint-visitor-keys "^1.1.0"
-
-"@typescript-eslint/typescript-estree@2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.16.0.tgz#b444943a76c716ed32abd08cbe96172d2ca0ab75"
-  integrity sha512-hyrCYjFHISos68Bk5KjUAXw0pP/455qq9nxqB1KkT67Pxjcfw+r6Yhcmqnp8etFL45UexCHUMrADHH7dI/m2WQ==
-  dependencies:
-    debug "^4.1.1"
-    eslint-visitor-keys "^1.1.0"
-    glob "^7.1.6"
-    is-glob "^4.0.1"
-    lodash "^4.17.15"
-    semver "^6.3.0"
-    tsutils "^3.17.1"
 
 "@typescript-eslint/typescript-estree@2.18.0":
   version "2.18.0"
@@ -1253,7 +1231,7 @@ rox-node@^4.8.9:
   resolved "https://registry.yarnpkg.com/rox-node/-/rox-node-4.8.9.tgz#55355c26a36574a61cd15b2d6bb0b15bfc5e9b2b"
   integrity sha512-2yNI8dtFRdpVy8qHGL9Ji0I0y2/mPYVOaQ1eaFAroYMHeHNu+zYnm27PeRusddEvdLFaHX1sNGOqJ+uwpQWErw==
 
-rox-ssr@^4.8.7:
+rox-ssr@^4.8.9:
   version "4.8.9"
   resolved "https://registry.yarnpkg.com/rox-ssr/-/rox-ssr-4.8.9.tgz#67ef8cc5ee30d523bec7fd22029431b80caee6d1"
   integrity sha512-1kN7QrCEfWlB8JLmMheCGVmxywiYsc4QFEJYotVuzGttuhQH0HaJamXFMKU8P97GRkv00oXVs4/MnVQSLY4mXA==
