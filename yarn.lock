@@ -1298,23 +1298,23 @@ rimraf@2.6.3:
   dependencies:
     glob "^7.1.3"
 
-rox-browser@^4.8.10:
-  version "4.8.10"
-  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-4.8.10.tgz#029bff9985f7e301e0978b8acc1be3995a38ada7"
-  integrity sha512-lCo1gUlkVQRH0pZ3eIv/FGzRL1uAurERA+yDlKVq0S+vShQJdl1qdYWW973pYJrMalU+bhHmDG9eftkgXP1w4Q==
+rox-browser@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-4.9.0.tgz#b8d39d63d29fa750aa990c7cdf2938d1117219b9"
+  integrity sha512-zA1MG+p6X0hZjVhcRFsPtSwuN/wF4+eIOQT5Ql3Nv3iLlSzVSBMt04dtUV24AJ4kYiRdz5U7ffpQMv0KRJqRRg==
 
-rox-node@^4.8.10:
-  version "4.8.10"
-  resolved "https://registry.yarnpkg.com/rox-node/-/rox-node-4.8.10.tgz#552f775a41ea0788c43b3811cc8c2470a4dee27a"
-  integrity sha512-TJpn7UKj+IVr9cRgf0Nd5GZckejIuqjlhf0/mF7mWslUqrfjCen3ehzh81bYok6stSxY7r8UGDeXFlmBE9lFRw==
+rox-node@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/rox-node/-/rox-node-4.9.0.tgz#67a7aab933ba64562c724a7cce7f2c237f37bfd4"
+  integrity sha512-inhHfv1a9Vb9ChrxZ3DOuToIRDhySbTqCQqaq3jtXQ8CheRGm0SfNF7x0riCaMow0vhR7To7xd06ojVkFw5dAQ==
 
-rox-ssr@^4.8.10:
-  version "4.8.10"
-  resolved "https://registry.yarnpkg.com/rox-ssr/-/rox-ssr-4.8.10.tgz#2d00e948cfd1e2158e0f17db845345b45921fa4d"
-  integrity sha512-z9RfeatyEUeMfbyKCxvXdOn8YXx4rUZMJCtBcCfXlvMT07y2lBtTpANy8UbGcdCFzex2wxCNF3dOUPq7k7CmzA==
+rox-ssr@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/rox-ssr/-/rox-ssr-4.9.0.tgz#173f7ca57e57416d5229f4bfd6efc78feb5436fc"
+  integrity sha512-Iho2o0AmkZK/aH+uqlp7WWkgx/bWL/DLx0QZ8zngYymplTxrtF7CWshpUpk2CmjjiCEnxZL3JALwTVJ59Q9Q2w==
   dependencies:
-    rox-browser "^4.8.10"
-    rox-node "^4.8.10"
+    rox-browser "^4.9.0"
+    rox-node "^4.9.0"
 
 run-async@^2.2.0:
   version "2.3.0"
