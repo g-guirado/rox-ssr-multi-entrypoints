@@ -29,7 +29,9 @@ class RoxClientMultiEntrypoints extends _RoxClient {
     // In this case, we rewrite the Flags with the values stored within Rox.
     if (this.flags && this.flags.length > 0) {
       this.flags.forEach((f) => {
-        roxContainer[f.name.replace(`${namespace}.`, '')] = f; // eslint-disable-line no-param-reassign
+        if (f?.name) {
+          roxContainer[f.name.replace(`${namespace}.`, '')] = f; // eslint-disable-line no-param-reassign
+        }
       });
     }
   }
