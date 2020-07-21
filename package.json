@@ -1,6 +1,6 @@
 {
   "name": "rox-ssr-multi-entrypoints",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "description": "Rollout.io SDK with support for multiple entrypoints",
   "author": "Guillaume Guirado",
   "license": "MIT",
