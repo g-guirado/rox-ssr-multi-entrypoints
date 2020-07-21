@@ -1347,7 +1347,7 @@ rox-node@^4.9.16:
   resolved "https://registry.yarnpkg.com/rox-node/-/rox-node-4.9.16.tgz#a506edab3e2e6d2a60663dd9d74c6e5acaa6b928"
   integrity sha512-zk0+rmJui7CD/wxef1M+EFGO1rgEq3oPKJYl5/VMnWZWdJXP22+MxpZocQSCPJOiaOWheS9actg5kfOvIkoY3Q==
 
-rox-ssr@^4.9.7:
+rox-ssr@^4.9.16:
   version "4.9.16"
   resolved "https://registry.yarnpkg.com/rox-ssr/-/rox-ssr-4.9.16.tgz#7295fc97a8f3184cf9390a68d0f7b88b73ca638e"
   integrity sha512-nshEJ+l++ismO6l1elJ9W7B72bgvrM3jwcG5KpsFI5t7NLAXlQUmA+6erV5SMz7XPbuV/CwMsr1jmC5trGJwAw==
