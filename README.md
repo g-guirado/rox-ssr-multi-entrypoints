@@ -17,7 +17,7 @@ Same as [rox-ssr](https://www.npmjs.com/package/rox-ssr) but use `import from 'r
 
 # Caveats
 - Rollout offers 3 types of objects: Configuration, Flag and Variant. Because the DynamicApi does not support Configuration, this package also doesn't support it. Use Flag for boolean values and Variant for anything else.
-- While I am employed by CloudBees and this SDK is being used on www.cloudbees.com, *this is not an official CloudBees Rollout SDK*. 
+- *This is not an official CloudBees Rollout SDK*. 
 
 # License
 MIT
