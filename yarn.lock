@@ -191,6 +191,13 @@ axe-core@^4.0.2:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.0.2.tgz#c7cf7378378a51fcd272d3c09668002a4990b1cb"
   integrity sha512-arU1h31OGFu+LPrOLGZ7nB45v940NMDMEJeNmbutu57P+UFDVnkZg3e+J1I2HJRZ9hT7gO8J91dn/PMrAiKakA==
 
+axios@^0.19.2:
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
+  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
+  dependencies:
+    follow-redirects "1.5.10"
+
 axobject-query@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-2.2.0.tgz#943d47e10c0b704aa42275e20edf3722648989be"
@@ -295,6 +302,13 @@ damerau-levenshtein@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.6.tgz#143c1641cb3d85c60c32329e26899adea8701791"
   integrity sha512-JVrozIeElnj3QzfUIt8tB8YMluBJom4Vw9qTPpjGYQ9fYlB3D/rb6OordUxf3xeFB35LKWs0xqcO5U6ySvBtug==
+
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  dependencies:
+    ms "2.0.0"
 
 debug@^2.6.9:
   version "2.6.9"
@@ -705,6 +719,13 @@ flatted@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.1.tgz#69e57caa8f0eacbc281d2e2cb458d46fdb449e08"
   integrity sha512-a1hQMktqW9Nmqr5aktAux3JMNqaucxGcjtjWnZLHX7yyPCmlSV3M54nGYbqT8K+0GhF3NBgmJCc3ma+WOgX8Jg==
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
+  dependencies:
+    debug "=3.1.0"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -1372,23 +1393,27 @@ rimraf@2.6.3:
   dependencies:
     glob "^7.1.3"
 
-rox-browser@^4.9.18:
-  version "4.9.18"
-  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-4.9.18.tgz#34a924701440b00ea0c13359a30e2aaad36ffe05"
-  integrity sha512-uZv7oMV7eYWwqODTNWPfSmromU2IhOqIAgnrLElMkSPERK9iHvEhFkYrksZoj+WWV1ffAnHjpWUQdO8EFzwIbg==
-
-rox-node@^4.9.18:
-  version "4.9.18"
-  resolved "https://registry.yarnpkg.com/rox-node/-/rox-node-4.9.18.tgz#8b418981dd184e315a3c712157828ccf5bc34566"
-  integrity sha512-oxXS6pELJp+hTjOtGtisJDBMZ9Vtls+YBTkjMchfTltvnBkM7rE6MLhTYnQWjjS7fLxFHMphURE1nUmdQ4+U4g==
-
-rox-ssr@^4.9.16:
-  version "4.9.18"
-  resolved "https://registry.yarnpkg.com/rox-ssr/-/rox-ssr-4.9.18.tgz#98bf7c055b2ebdae01e231aa64107aece6d4ed91"
-  integrity sha512-/CYJVZP34Ga8uzIdZKsGwwEMpj6bVBSO1Hwd7mr+r/t5DI1wjqLPj71iVDmTqMfQ7ld/jpA2Hqcz1Y6K+LUXHA==
+rox-browser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-5.0.0.tgz#f9f9d1d54ad8958c19ef0fb3f9c270cb0335d4e0"
+  integrity sha512-l9DsmoxVffRxVldBAifLwFhEGEa7nreAkIy/cr2LO47IX1ilK4XaFa4i0wKzK8oyhv/HNU97Ptfr/0oYdtm37g==
   dependencies:
-    rox-browser "^4.9.18"
-    rox-node "^4.9.18"
+    axios "^0.19.2"
+
+rox-node@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/rox-node/-/rox-node-5.0.0.tgz#c971e20f7dfa5122588d8e3316649e59862feed4"
+  integrity sha512-vwhH8TNfO7239uy27zKXeqFa7HaX3hvyxzC6wAfnvLH0ZKx4fM3CRzqRWWRSJYZcmkQf5gh7aX+5iuncoWNz1Q==
+  dependencies:
+    axios "^0.19.2"
+
+rox-ssr@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/rox-ssr/-/rox-ssr-5.0.0.tgz#0a1fbf12625a3e1201d2512c70ee5e1b9f880b2e"
+  integrity sha512-kZWlvZHUiIWe1epJgI07JJhsX/oBox0uyR+l9cXcy3TrDiBM8rLBC8FSWHxErs6CD1hhQYL2kG/wrSA681BTdA==
+  dependencies:
+    rox-browser "^5.0.0"
+    rox-node "^5.0.0"
 
 run-async@^2.2.0:
   version "2.3.0"
