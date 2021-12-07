@@ -15,7 +15,7 @@ class RoxClientMultiEntrypoints extends _RoxClient {
   register(namespace: string, roxContainer: RoxContainer): void {
     try {
       super.register(namespace, roxContainer);
-    } catch (e) {
+    } catch (e: any) {
       if (!e.message || !e.message.includes('A namespace must be unique')) {
         // register failed for a reason other than namespace already existing
         throw e;
